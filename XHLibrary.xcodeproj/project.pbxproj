@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D93461C9B9CC500BC787B /* XHLibrary.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 030D93451C9B9CC500BC787B /* XHLibrary.h */; };
+		030D93481C9B9CC500BC787B /* XHLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D93471C9B9CC500BC787B /* XHLibrary.m */; };
+		030D93671C9BA57400BC787B /* RWKnobControl.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 030D93501C9B9D1400BC787B /* RWKnobControl.h */; };
+		030D93681C9BA57400BC787B /* RWKnobRenderer.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 030D93521C9B9D1400BC787B /* RWKnobRenderer.h */; };
+		030D93691C9BA57400BC787B /* RWRotationGestureRecognizer.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 030D93541C9B9D1400BC787B /* RWRotationGestureRecognizer.h */; };
+		030D936A1C9BA57800BC787B /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D93511C9B9D1400BC787B /* RWKnobControl.m */; };
+		030D936B1C9BA57800BC787B /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D93531C9B9D1400BC787B /* RWKnobRenderer.m */; };
+		030D936C1C9BA57800BC787B /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D93551C9B9D1400BC787B /* RWRotationGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		030D93401C9B9CC500BC787B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				030D93671C9BA57400BC787B /* RWKnobControl.h in Copy Files */,
+				030D93681C9BA57400BC787B /* RWKnobRenderer.h in Copy Files */,
+				030D93691C9BA57400BC787B /* RWRotationGestureRecognizer.h in Copy Files */,
+				030D93461C9B9CC500BC787B /* XHLibrary.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		030D93421C9B9CC500BC787B /* libXHLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXHLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		030D93451C9B9CC500BC787B /* XHLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHLibrary.h; sourceTree = "<group>"; };
+		030D93471C9B9CC500BC787B /* XHLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHLibrary.m; sourceTree = "<group>"; };
+		030D93501C9B9D1400BC787B /* RWKnobControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
+		030D93511C9B9D1400BC787B /* RWKnobControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
+		030D93521C9B9D1400BC787B /* RWKnobRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
+		030D93531C9B9D1400BC787B /* RWKnobRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
+		030D93541C9B9D1400BC787B /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		030D93551C9B9D1400BC787B /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030D933F1C9B9CC500BC787B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030D93391C9B9CC500BC787B = {
+			isa = PBXGroup;
+			children = (
+				030D93441C9B9CC500BC787B /* XHLibrary */,
+				030D93431C9B9CC500BC787B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030D93431C9B9CC500BC787B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030D93421C9B9CC500BC787B /* libXHLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030D93441C9B9CC500BC787B /* XHLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				030D934F1C9B9D1400BC787B /* RWKnobControl */,
+				030D93451C9B9CC500BC787B /* XHLibrary.h */,
+				030D93471C9B9CC500BC787B /* XHLibrary.m */,
+			);
+			path = XHLibrary;
+			sourceTree = "<group>";
+		};
+		030D934F1C9B9D1400BC787B /* RWKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				030D93501C9B9D1400BC787B /* RWKnobControl.h */,
+				030D93511C9B9D1400BC787B /* RWKnobControl.m */,
+				030D93521C9B9D1400BC787B /* RWKnobRenderer.h */,
+				030D93531C9B9D1400BC787B /* RWKnobRenderer.m */,
+				030D93541C9B9D1400BC787B /* RWRotationGestureRecognizer.h */,
+				030D93551C9B9D1400BC787B /* RWRotationGestureRecognizer.m */,
+			);
+			path = RWKnobControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		030D934E1C9B9CF000BC787B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		030D93411C9B9CC500BC787B /* XHLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030D934B1C9B9CC500BC787B /* Build configuration list for PBXNativeTarget "XHLibrary" */;
+			buildPhases = (
+				030D933E1C9B9CC500BC787B /* Sources */,
+				030D933F1C9B9CC500BC787B /* Frameworks */,
+				030D93401C9B9CC500BC787B /* Copy Files */,
+				030D934E1C9B9CF000BC787B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHLibrary;
+			productName = XHLibrary;
+			productReference = 030D93421C9B9CC500BC787B /* libXHLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030D933A1C9B9CC500BC787B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = softgoto;
+				TargetAttributes = {
+					030D93411C9B9CC500BC787B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 030D933D1C9B9CC500BC787B /* Build configuration list for PBXProject "XHLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 030D93391C9B9CC500BC787B;
+			productRefGroup = 030D93431C9B9CC500BC787B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030D93411C9B9CC500BC787B /* XHLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030D933E1C9B9CC500BC787B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D936A1C9BA57800BC787B /* RWKnobControl.m in Sources */,
+				030D936B1C9BA57800BC787B /* RWKnobRenderer.m in Sources */,
+				030D936C1C9BA57800BC787B /* RWRotationGestureRecognizer.m in Sources */,
+				030D93481C9B9CC500BC787B /* XHLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		030D93491C9B9CC500BC787B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		030D934A1C9B9CC500BC787B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030D934C1C9B9CC500BC787B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		030D934D1C9B9CC500BC787B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030D933D1C9B9CC500BC787B /* Build configuration list for PBXProject "XHLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030D93491C9B9CC500BC787B /* Debug */,
+				030D934A1C9B9CC500BC787B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030D934B1C9B9CC500BC787B /* Build configuration list for PBXNativeTarget "XHLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030D934C1C9B9CC500BC787B /* Debug */,
+				030D934D1C9B9CC500BC787B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030D933A1C9B9CC500BC787B /* Project object */;
+}
